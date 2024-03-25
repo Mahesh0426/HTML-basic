@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first web site</title>
+  </head>
+  <body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium
+    porro fuga. Dicta unde recusandae nostrum asperiores eveniet. Facere tenetur
+    error similique expedita reprehenderit consequatur accusamus debitis
+    voluptatum soluta. Odit.
+    <!-- heading 1-5 -->
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+    <!-- paragraph -->
+    
+      <p>the difference between p tag and div tag is when we make a paragraph in p tag there is default space between two paragraph which can be seen below.</p>
+      <p>the difference between p tag and div tag is when we make a paragraph in p tag there is default space between two paragraph which can be seen below.</p>
+    <!-- div -->
+    <div>In the div if we write inside the div tag there is no default space between two paragarh <div>
+    <div>to copy entire line  press shift option down or up arrow</div>
+    <span> the main use of</span>
+    <span> spam is it create</span>
+    <span> all line in </span>
+    <span> one sentence </span>
+    <span> there is some gap only.</span>
+
+    <!-- nested elements -->
+    <div>
+        <h2>About ME</h2>
+        <hr>
+        <div>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+
+    <!-- links -->
+    <a href="https://www.w3schools.com/html/default.asp" target="-blank">We school</a> <br>
+    <a href="contact.html">contact</a>
+    <a href="https://www.google.com.au/?client=safari&channel=iphone_bm" target="-blank">Google</a>
+
+    <!-- semantic element -->
+    <section>
+        
+        <article>
+            <h4>What are Semantic Elements?</h4>
+            <p>
+                A semantic element clearly describes its meaning to both the browser and the developer.f non-semantic elements: "div" and "span" - Tells nothing about its content.
+                
+                Examples of semantic elements: "form", "table", and "article" - Clearly defines its content.</p>
+                </article>
+            </section>
+            <section>
+                <h4>HTML Section element</h4>
+                <p>The "section"  element defines a section in a document.
+
+                    According to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading."
+                    
+                    Examples of where a "section" element can be used:
+                    
+                    Chapters
+                    Introduction
+                    News items
+                    Contact information
+                    A web page could normally be split into sections for introduction, content, and contact information.
+                    
+                    
+
+                </p>
+            </section>
+                
+            <!-- data management -->
+            <!--  types of list -->
+            <!-- order list -->
+            <h4>SECTION element is used for:</h4>
+            <!-- options: 1,a,A,i,I -->
+            <ol type ="A">
+                <li>chapters</li>
+                <li>introduction</li>
+                <ol>
+                    <li>chapters</li>
+                </ol>
+                <li>news items</li>
+                <li>contact information</li>
+            </ol>
+            <!-- unordered list -->
+            <!-- options are disc, circle, square -->
+            <h4>Article is used for:</h4>
+            <ul type="circle">
+                <li>Forum post</li>
+                <li>Blog Posts</li>
+                <li>user comments</li>
+                <li>product cards</li>
+                <li>newspaper article</li>
+            </ul>
+           <h3>Discription lists</h3>
+           <dl>
+            <dt>Coffee</dt>
+            <dd>- Black and hot drink</dd>
+            <dt>milk</dt>
+            <dd>- white and cold drink</dd>
+           </dl>
+           <!-- tables -->
+           <table border="1">
+            <!-- head part -->
+            <thead>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Bishal</td>
+                    <td>Shah</td>
+                    <td>123456778</td>
+                    <td>bishal@gmail.com</td>
+                </tr>
+                <!-- to create this td>tr*5 -->
+                <tr>
+                    <td>2.</td>
+                    <td>Ramesh</td>
+                    <td>Bhatt</td>
+                    <td>67893452</td>
+                    <td>ramesh@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td colspan="2">Sushil</td>
+                    
+                    <td>23456789</td>
+                    <td>sushil@gmail.com</td>
+                </tr>
+            </tbody>
+           </table>
+           <!-- multimedia -->
+           <!-- images -->
+           <img src="https://images.unsplash.com/photo-1593993710157-cb1d8f5468c3?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  width="700px" height="400px"  alt="brown mountain">
+           <img src="aa.webp" height="400px" width="500px"  alt="Nature"> 
+           <br>
+           <br>
+           <p>audio</p>
+           <audio controls >
+            <source src="ausio.mp3" type="audio/mp3"/>
+            </audio>
+            <video controls width="500px" >
+
+            <source src="dolphin.mp4" type="video/mp4"/>
+            </video>
+          <!-- form -->
+          <br>
+          <a href="form.html"><button>Register Now</button> </a>
+    
+  </body>
+</html>
